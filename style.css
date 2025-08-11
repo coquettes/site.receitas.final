@@ -1,0 +1,104 @@
+/* ====== Reset Básico ====== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ====== Corpo ====== */
+body {
+    background-color: #fff8f0;
+    color: #333;
+    line-height: 1.6;
+    padding: 0;
+}
+
+/* ====== Cabeçalho ====== */
+header {
+    background-color: #ffb347; /* tom de laranja suave */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid #ff9933;
+}
+
+header h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+header h3 {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+/* ====== Seções ====== */
+section {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: #cc5500;
+    margin-bottom: 10px;
+}
+
+section h3 {
+    margin-top: 15px;
+    color: #444;
+}
+
+/* ====== Imagens ====== */
+section img {
+    display: block;
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 15px auto;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+/* ====== Listas ====== */
+section li {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+/* ====== Parágrafos ====== */
+section p {
+    margin: 10px 0;
+}
+
+/* ====== Destaque de Receitas ====== */
+.intro-barreado {
+    border-left: 5px solid #ff9933;
+}
+
+.intro-galinhada {
+    border-left: 5px solid #ffc300;
+}
+
+.intro-martarocha {
+    border-left: 5px solid #ff6666;
+}
+
+.intro-brigadeiro {
+    border-left: 5px solid #6a4c93;
+}
+
+/* ====== Responsividade ====== */
+@media (max-width: 768px) {
+    header h2 {
+        font-size: 2rem;
+    }
+
+    section {
+        margin: 15px;
+        padding: 15px;
+    }
+}
